@@ -3,7 +3,7 @@
 #rsl--
 #This pair of functions create an invertible "matrix" object (assumed square & nonsingular)
 #and then computes its inverse and stores the inverse to cache for repeated use to save recomputation.
-#Using the scoping rules of R the <<- operator is used to obtain an initial value from and cache
+#Using the scoping rules of R the <<- operator is used to obtain an initial value from, and cache
 #the result to an environment different from the current environment.
 
 ## Write a short comment describing this function
